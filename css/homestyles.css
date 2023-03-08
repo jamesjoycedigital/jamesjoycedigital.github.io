@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+  height:100%;
+    
+}
+
+
+.first {
+  padding-top:200px;
+  height:80vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url(../Images/header.jpg);
+
+	
+}
+
+.jumbotron {background: #212121;
+font-family: "Quattrocento Sans", sans-serif;
+	font-weight: 300;
+color: #FFFFFF}
+
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+
+}
+
+.affix-top {
+  /* navbar style at top */
+  background:white;
+  border-color:transparent;
+  padding: 5px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease; 
+  -o-transition:all 0.5s ease;         
+  transition:all 0.5s ease;  
+}
+
+.affix-top .nav>li>a {
+   color: #9d9d9d;
+}
+.affix-top .nav>li>a:hover {
+   color: #000000;
+}
+.affix-top .navbar-brand {
+   color: #9d9d9d;
+	font-family: "open-sans"
+}
+.affix-top .navbar-brand:hover {
+   color: #000000;
+	font-family: "open-sans"
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
+.black-on-white {color: black;background-color: white;}
+
+
+.foot {
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: cover;
+	font-family: open sans;
+}
+
+h1 .btn {
+	font-size: 30px;
+	font-family: open sans;
+}
+form-group .label {font-family: "open-sans"}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -300px;
+  /* Pad bottom by footer height */
+  padding: 0 0 300px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 300px;
+
+	background-image:url(../Images/JJDA_footer.jpg)
+}

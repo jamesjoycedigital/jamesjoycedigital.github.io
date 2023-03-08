@@ -1,1 +1,2 @@
-# jamesjoycedigital.github.io
+# James Joyce Digital Archive Published Website
+
