@@ -1,0 +1,18 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["flz0001"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> tallwhite&mdash;hatted <u>end-of-line hyphenation</u></p>";
+FootNote["flz0002"] = "<p class=\"foot\">&nbsp;&nbsp; ueh<B> ]</B> <B>2;</B> eh? ???</p>";
+FootNote["flz0003"] = "<p class=\"foot\">&nbsp;&nbsp; big<B> ]</B> <B>poss</B> <B>2,</B> <B>mx</B> <B>4;</B> long <B>poss</B> <B>2</B></p>";
+FootNote["flz0004"] = "<p class=\"foot\">&nbsp;&nbsp; dragon<SUB>&and;</SUB><B> ]</B> <B>poss</B> <B>2;</B> dragon, <B>poss</B> <B>2</B></p>";
+FootNote["flz0005"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> hair&mdash;dresser <u>end-of-line hyphenation</u></p>";
+FootNote["flz0006"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> loin&mdash;cloths <u>end-of-line hyphenation</u></p>";
+FootNote["flz0007"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Budgen <u>begins<u></p>";
+FootNote["flz0008"] = "<p class=\"foot\">&nbsp;&nbsp; wyce<B> ]</B> <B>s</B> <B>2</B></p>";
+FootNote["flz0009"] = "<p class=\"foot\">&nbsp;&nbsp; years<SUB>&and;</SUB><B> ]</B> <B>2;</B> years. <B>mx</B> <B>4</B></p>";
+FootNote["flz0010"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> stickumbrella&mdash;dustcoat <u>end-of-line hyphenation</u></p>";
+FootNote["flz0011"] = "<p class=\"foot\">&nbsp;&nbsp; form<SUB>&and;</SUB><B> ]</B> <B>s</B> <B>2;</B> form. LR, <B>mx</B> <B>4</B></p>";
+FootNote["flz0012"] = "<p class=\"foot\">&nbsp;&nbsp; court dress<B> ]</B> <B>2;</B> <B>poss</B> courtdress</p>";
+FootNote["flz0013"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> text of insertion missing</p>";
+FootNote["flz0014"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> text of insertion missing</p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

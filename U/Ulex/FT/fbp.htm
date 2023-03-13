@@ -1,0 +1,17 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fbz0001"] = "<p class=\"foot\">&nbsp;&nbsp; <u>waves,</u><B> ]</B> <B>poss</B> <B>2;</B> <u>waves</u><SUB>&and;</SUB> <B>poss</B> <B>2</B></p>";
+FootNote["fbz0002"] = "<p class=\"foot\">&nbsp;&nbsp; wheywhite<B> ]</B> <B>2;</B> <B>mx</B> <B>3;</B> wheysour <B>s</B> <B>2,</B> <B>3'</B> (Letters I <B>10</B><B>9</B>)</p>";
+FootNote["fbz0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> con&mdash;tinually  end-of-line hyphenation</p>";
+FootNote["fbz0004"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Buffalo PC <B>19</B> XII <B>19</B><B>17</B>: history is to blame:</p>";
+FootNote["fbz0005"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> left margin: Good man, good man. (see Letters I <B>10</B><B>9</B>)</p>";
+FootNote["fbz0006"] = "<p class=\"foot\">&nbsp;&nbsp; lunches.<B> ]</B> <B>poss</B> <B>2;</B> lunches, <B>poss</B> <B>2</B></p>";
+FootNote["fbz0007"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> savings&mdash;box  end-of-line hyphenation</p>";
+FootNote["fbz0008"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Letters II.<B>41</B><B>3</B>: in  &apos;46</p>";
+FootNote["fbz0009"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Letters II.<B>41</B><B>3</B>: Day!&nbsp;&hellip;.</p>";
+FootNote["fbz0010"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Letters II <B>41</B><B>5</B>: department</p>";
+FootNote["fbz0011"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Letters II <B>41</B><B>5</B>: department</p>";
+FootNote["fbz0012"] = "<p class=\"foot\">&nbsp;&nbsp; And&nbsp;&hellip; come.<B> ]</B> <B>2;</B> Letters I <B>10</B><B>9</B>: <u>del</u></p>";
+FootNote["fbz0013"] = "<p class=\"foot\">&nbsp;&nbsp; tweaked<B> ]</B> <B>s</B> <B>2</B> (see Letters II <B>41</B><B>5</B>)</p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

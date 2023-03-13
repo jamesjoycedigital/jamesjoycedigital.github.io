@@ -1,0 +1,7 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fez0001"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> fresh&mdash;printed  end-of-line hyphenation</p>";
+FootNote["fez0002"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> dis&mdash;tinguishedlooking  end-of-line hyphenation</p>";
+FootNote["fez0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> instru&mdash;ment end-of-line hyphenation</p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});
