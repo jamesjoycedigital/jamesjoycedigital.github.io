@@ -5,7 +5,9 @@ css/.DS_Store
 !/U/FF
 !/U/FF/js
 !/U/FF/js/*
-
+!U/FF/snippet
+!U/FF/snippet/*
+!U/FF/snippet/*/*
 !U/FF/unbs
 !U/FF/unbs/*
 !U/Ulex
