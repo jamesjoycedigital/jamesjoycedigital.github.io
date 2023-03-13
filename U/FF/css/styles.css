@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+/* CSS used here will be applied after bootstrap.css */
+
+/* previous nav styles
+.navbar-brand {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 300}
+.nav li {font-family: 'Quattrocento Sans', sans-serif;
+font-weight: 300;
+font-style: normal}
+/* End previous nav styles*/
+.nav li {font-family: "Open Sans", sans-serif}
+.navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300}
+.panel-footer a {font-size: 14px;
+	text-decoration: none;
+	color: #222}
+
+
+.list-group-item .fa {
+    margin-right: 5px;
+}
+.well h3 {font-weight: 300}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.dropdown-menu.scrollable-menu li {
+	background-color: #585858}
+
+.fixed-top-2 {
+    margin-top: 50px;
+	overflow:visible;
+}
+.fixed-top-1 .navbar-right {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body,html,.row-offcanvas {
+  height:100%;
+}
+
+body {
+    padding-top: 100px;
+}
+
+#sidebar {
+  width: inherit;
+  min-width: 240px;
+  max-width: 240px;
+  background-color:#fff;
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;padding-top: 20px
+}
+#main {
+	height: 100%;
+	padding: 20px;
+	overflow: auto;
+}
+
+/*
+ * sidebar list-group styles
+ * --------------------------------------------------
+ */
+#sidebar .list-group-item {
+
+}
+#sidebar .list-group-item: hover, active{
+    color: black;
+  	background: #FaFaFa 
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 0px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 50px;
+}
+
+.list-group-item .glyphicon {
+    margin-right: 5px;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 240px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -240px;
+  }
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+  }
+  
+  
+}
+
+a:link {text-decoration:none}
+a:visited {text-decoration:none;}
+a:active {text-decoration:none; color: darken; background:#F5F050;}
+a:target {text-decoration:none; color: darken; background-color:#F5F050;}
+
+p { text-indent: 30px; margin-top: 1px; margin-bottom: 0; line-height: 1.5; }
+p.inpar { text-indent: 10px; }
+
+.strike {
+        text-decoration: line-through;
+        color: Red;
+}
+.striketext{
+color:black;
+}
+p.foot { text-indent: 0; }
+p.di { text-indent: 30px; }
+p.pdi { text-indent: 0; }
+p.poem { text-indent: 0; margin-left: 30px; }
+p.poemsp { text-indent: 0; margin-left: 30px; margin-top: 10px; }
+
+p.diset { text-indent: -20px; margin-left: 50px; }
+p.indiset { text-indent: -45px; margin-left: 50px; }
+p.epi { text-indent: -2%; margin-left: 2%; }
+
+p.epidial { text-indent: -6%; margin-left: 7%; }
+p.pdiset { text-indent: -20px; margin-left: 20px; }
+p.pindiset { text-indent: 0; margin-left: 20px; }
+p.epiplace { text-indent: 0; margin-left: 10%; }
+
+p.ralign { text-align: right; }
+
+p.set { margin-left: 80px; text-indent: 0; margin-top: 10px; margin-bottom: 10px; }
+p.inset { margin-left: 80px; text-indent: -30px; margin-top: 10px; margin-bottom: 10px; }
+
+p.StDir { text-indent: -20px; margin-top: 20px; margin-left: 50px; }
+p.StDirIn { text-indent: -20px; margin-left: 50px; }
+p.pStDir { text-indent: 0; margin-top: 20px; }
+
+p.flush { text-indent: 0; }
+p.spbr { text-indent: 0; margin-top: 20px;}
+p.SpPar { text-indent: 30px; margin-top: 20px; }
+
+p.char { text-align: center;  font-size: smaller; margin-top: 20px;  margin-bottom: 5px; }
+p.pchar { text-align: center;  margin-top: 20px;  margin-bottom: 5px; }
+
+p.speech { text-indent: 30px; }
+p.pspeech { text-indent: 0; }
+
+
+p.headline { text-indent: 10px;  text-align: center; font-size: smaller; font-weight: bold;
+margin-top: 20px; margin-bottom: 20px; }
+
+
+p.center { text-align: center; margin-top: 10px; margin-bottom: 10px; text-indent: 0; }
+
+p.deep {text-align: right; margin-right: 50px; }
+
+p.doop {text-indent: 50px; }
+p.duup {text-indent: 80px; }
+p.daap {text-indent: 110px; }
+p.diip {text-indent: 230px; }
+p.spfl {text-indent: 0; margin-top: 20px;}
+
+
+p.scylla { text-align: center; margin-top: 20px; }
+
+p.ith { margin-top: 20px;  margin-bottom: 5px; }
+p.pith { text-indent: 0; margin-top: 20px;  margin-bottom: 5px; }
+
+p.ms {text-indent: 0; margin-top: 10px;  margin-bottom: 10px; color: green; }
+
+p.mj { text-indent: -30px; margin-left: 30px;}
+
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+blockquote, blockquote footer {
+    font-size: 110% !important
+}
+blockquote {
+  border-left-width: 1px;
+  color: inherit;
+
+}
+blockquote.pull-right {
+  border-right-width: 1px;
+}
+blockquote small {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+small {
+    font-size: 75%
+}
+
+dd h4 {
+    font-size: 1em;
+    font-weight: normal
+}
+body {
+    font-family: "Quattrocento Sans", sans-serif;
+}
+blockquote.sources {
+  font-size: 100% !important;
+  font-weight: 300;
+  border-left-width: 1px;
+  border-left-color: ;
+  color: ;
+  padding: 5px 10px
+}
+dd ul {
+  list-style-type: none;
+  font-size: 100%;
+}
+mark {
+  background: yellow;
+  color: #000;
+}
+dt {
+  font-weight: normal;
+  padding-bottom: 5px
+}
+div.c {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+}
+
+
+
+
+
+
+
+
+
+

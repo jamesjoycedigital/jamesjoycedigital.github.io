@@ -1,10 +1,17 @@
 css/._.DS_Store
 css/.DS_Store
 *
+!js
+!js/*
+
+!Images
+!Images/*
 !/U
 !/U/FF
 !/U/FF/js
 !/U/FF/js/*
+!/U/FF/css
+!/U/FF/css/*
 !U/FF/snippet
 !U/FF/snippet/*
 !U/FF/snippet/*/*
@@ -13,4 +20,5 @@ css/.DS_Store
 !U/Ulex
 !U/Ulex/*
 !U/Ulex/*/*.htm
+!U/UHome.htm
 
