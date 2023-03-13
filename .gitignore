@@ -3,6 +3,7 @@ css/.DS_Store
 *
 !js
 !js/*
+!index.html
 
 !Images
 !Images/*
