@@ -1,0 +1,5 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fdz0001"] = "<p class=\"foot\">&nbsp;&nbsp; twentyeight.<B> ]</B> <B>poss</B> <B>2;</B> twentyeight: <B>poss</B> <B>2</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});
