@@ -1,4 +1,4 @@
-﻿$.getScript("../../FF/js/fn.js", function () {
+﻿$.getScript("../../ff/js/fn.js", function () {
   console.log("loaded footnotes");
 });
 
