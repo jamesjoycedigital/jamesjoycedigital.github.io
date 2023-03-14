@@ -8,8 +8,9 @@ current = null;
 $(document).on("click", "a", function () {
   if ($(this).attr("name")) {
     href = $(this).attr("href");
-    if (!href.includes("../../FF/unbs/")) {
-      href = "../../FF/unbs/" + href;
+    // correct for relative paths
+    if (!href.includes("../../ff/unbs/")) {
+      href = "../../ff/unbs/" + href;
     }
     href = href
       .replace(".htm", "")
