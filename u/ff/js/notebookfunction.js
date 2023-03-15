@@ -25,6 +25,7 @@ function snippet_href(href, code) {
     "un5all",
     "un6all",
     "un7all",
+    "unbdetails"
   ];
 
   for (let i in dirs) {
