@@ -63,3 +63,6 @@ images/*.DS_Store
 !f/ff/snippet
 !f/ff/snippet/*
 !f/ff/snippet/*/*
+
+!transforms
+!transforms/*.py
