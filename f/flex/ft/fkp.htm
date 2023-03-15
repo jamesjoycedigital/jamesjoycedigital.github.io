@@ -1,0 +1,4 @@
+$(document).ready(function(){ var FootNote = {};
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

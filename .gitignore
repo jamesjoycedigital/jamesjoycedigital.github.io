@@ -37,3 +37,27 @@ images/*.DS_Store
 !u/ulex/*/*.pdf
 !u/uhome.htm
 
+
+!f
+!f/*
+!f/ff
+!f/ff/js
+!f/ff/js/*
+!f/ff/fpics
+!f/ff/fpics/*.htm
+!f/ff/fpics/*.jpg
+!f/ff/fpics/*.pdf
+!f/ff/fpics/*.png
+!f/ff/fnbs
+!f/ff/fnbs/*.htm
+!f/ff/fdra
+!f/ff/fdra/*.htm
+!f/ff/fbiog
+!f/ff/fbiog/*.htm
+!f/ff/css
+!f/ff/css/*
+!f/ff/app
+!f/ff/app/*.htm
+!f/flex/*
+!f/flex/*/*.htm
+

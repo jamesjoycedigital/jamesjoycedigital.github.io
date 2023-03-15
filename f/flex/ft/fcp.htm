@@ -1,0 +1,25 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fcz0001"] = "<p class=\"foot\">&nbsp;&nbsp; 17<B> ]</B> <B>0;</B> 17 year <B>1</B></p>";
+FootNote["fcz0002"] = "<p class=\"foot\">&nbsp;&nbsp; supplied<B> ]</B> <B>poss</B> <B>cap</B></p>";
+FootNote["fcz0003"] = "<p class=\"foot\">&nbsp;&nbsp; long<SUB>&and;</SUB><B> ]</B> <B>1;</B> long, <B>0,</B> <B>2</B></p>";
+FootNote["fcz0004"] = "<p class=\"foot\">&nbsp;&nbsp; latitat<B> ]</B> <B>2;</B> habitat <B>0,</B> <B>1</B></p>";
+FootNote["fcz0005"] = "<p class=\"foot\">&nbsp;&nbsp; curser<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>0,</B> <B>1,</B> <B>3</B></p>";
+FootNote["fcz0006"] = "<p class=\"foot\">&nbsp;&nbsp; mews<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fcz0007"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>1</B>.<B>2</B> <u>ends</u></p>";
+FootNote["fcz0008"] = "<p class=\"foot\">&nbsp;&nbsp; against<B> ]</B> <B>2;</B> against him <B>1</B></p>";
+FootNote["fcz0009"] = "<p class=\"foot\">&nbsp;&nbsp; would<B> ]</B> <B>2;</B> would be <B>1</B></p>";
+FootNote["fcz0010"] = "<p class=\"foot\">&nbsp;&nbsp; no<SUB>&and;</SUB><B> ]</B> <B>2;</B> not, <B>1</B></p>";
+FootNote["fcz0011"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>2</B>.<B>2</B> <u>ends</u></p>";
+FootNote["fcz0012"] = "<p class=\"foot\">&nbsp;&nbsp; well<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>0</B></p>";
+FootNote["fcz0013"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>3</B>.<B>2</B> <u>ends</u></p>";
+FootNote["fcz0014"] = "<p class=\"foot\">&nbsp;&nbsp; latitat<B> ]</B> <B>2,</B> <B>mx</B> <B>3;</B> habitat <B>0,</B> <B>1</B></p>";
+FootNote["fcz0015"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>14</B><B>7</B>v: &lsquo;German / Swedish / Danish / English / Italian / Greek / Hindustani / Spanish &amp; Portuguese / Irish / Chinese / French / Rumanian / Portuguese / Hungarian / Anglo-French&rsquo;.</p>";
+FootNote["fcz0016"] = "<p class=\"foot\">&nbsp;&nbsp; forgivable<SUB>&and;</SUB><B> ]</B> <B>poss</B> <B>2,</B> <B>mx</B> <B>3;</B> ~, <B>1,</B> <B>poss</B> <B>2</B></p>";
+FootNote["fcz0017"] = "<p class=\"foot\">&nbsp;&nbsp; curser,<B> ]</B> <B>0,</B> <B>1,</B> <B>3;</B> ~<SUB>&and;</SUB> <B>2</B></p>";
+FootNote["fcz0018"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>1</B>.<B>3</B> <u>ends</u></p>";
+FootNote["fcz0019"] = "<p class=\"foot\">&nbsp;&nbsp; damnation<SUB>&and;</SUB> so<B> ]</B> <B>3;</B> ~, so <B>2;</B> ~. So <u>ms</u> <B>3</B></p>";
+FootNote["fcz0020"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>2</B>.<B>3</B> <u>ends</u></p>";
+FootNote["fcz0021"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>3</B>.<B>3</B> <u>ends</u></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

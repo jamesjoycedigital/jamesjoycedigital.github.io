@@ -1,0 +1,19 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fqz0001"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2</B>A.<B>0</B> <u>ends</u>, <B>2</B>C.<B>0</B> <u>begins</u></p>";
+FootNote["fqz0002"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2</B>A.<B>1</B> <u>ends</u>, <B>2</B>C.<B>1</B> <u>begins</u></p>";
+FootNote["fqz0003"] = "<p class=\"foot\">&nbsp;&nbsp; light<B> ]</B> <B>1;</B> night <B>0</B></p>";
+FootNote["fqz0004"] = "<p class=\"foot\">&nbsp;&nbsp; eat<B> ]</B> <B>2;</B> meat <B>0,</B> <B>1,</B> <B>3</B></p>";
+FootNote["fqz0005"] = "<p class=\"foot\">&nbsp;&nbsp; flummuxed<B> ]</B> <B>2;</B> flummoxed <B>3</B></p>";
+FootNote["fqz0006"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2</B>A.<B>2</B> <u>ends</u>, <B>2</B>C.<B>2</B> <u>begins</u></p>";
+FootNote["fqz0007"] = "<p class=\"foot\">&nbsp;&nbsp; to<B> ]</B> <B>2;</B> too <B>1</B></p>";
+FootNote["fqz0008"] = "<p class=\"foot\">&nbsp;&nbsp; I was<B> ]</B> <B>1,</B> <B>3;</B> we were <B>2</B></p>";
+FootNote["fqz0009"] = "<p class=\"foot\">&nbsp;&nbsp; antemeridian<B> ]</B> <B>3;</B> ante meridiem <B>2</B></p>";
+FootNote["fqz0010"] = "<p class=\"foot\">&nbsp;&nbsp; flummoxed<B> ]</B> <B>3;</B> flummuxed <B>2</B></p>";
+FootNote["fqz0011"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2</B>A.<B>3</B> <u>ends</u>, <B>2</B>C.<B>3</B> <u>begins</u></p>";
+FootNote["fqz0012"] = "<p class=\"foot\">&nbsp;&nbsp; himself<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0</B></p>";
+FootNote["fqz0013"] = "<p class=\"foot\">&nbsp;&nbsp; poetry<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~? <B>0</B></p>";
+FootNote["fqz0014"] = "<p class=\"foot\">&nbsp;&nbsp; himself<SUB>&and;</SUB><B> ]</B> <B>1,</B> <B>2;</B> ~, <B>0</B></p>";
+FootNote["fqz0015"] = "<p class=\"foot\">&nbsp;&nbsp; best<B> ]</B> <B>3;</B> west <B>2</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

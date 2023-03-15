@@ -1,0 +1,11 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["faz0001"] = "<p class=\"foot\">&nbsp;&nbsp; Cambromme ... spurs<B> ]</B> <u>marginalia</u></p>";
+FootNote["faz0002"] = "<p class=\"foot\">&nbsp;&nbsp; Shin<B> ]</B> <B>0+;</B> ~ with his turabine <B>0</B></p>";
+FootNote["faz0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>1</B>B.<B>0</B> <u>ends</u></p>";
+FootNote["faz0004"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> Sect <B>1</B>D.<B>0</B> <u>begins</u></p>";
+FootNote["faz0005"] = "<p class=\"foot\">&nbsp;&nbsp; say<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0,</B> <B>2</B></p>";
+FootNote["faz0006"] = "<p class=\"foot\">&nbsp;&nbsp; in,<B> ]</B> <B>1;</B> ~, with my owth <B>0</B></p>";
+FootNote["faz0007"] = "<p class=\"foot\">&nbsp;&nbsp; sabboath<B> ]</B> <B>1;</B> sabbaoth <B>0</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

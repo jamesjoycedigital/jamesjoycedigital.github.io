@@ -1,0 +1,11 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fsz0001"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>4</B>G.<B>0</B> <u>follows</u></p>";
+FootNote["fsz0002"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>4</B>G.<B>0+</B> <u>interrupts</u></p>";
+FootNote["fsz0003"] = "<p class=\"foot\">&nbsp;&nbsp; Isa<B> ]</B> <B>poss</B> (Isa</p>";
+FootNote["fsz0004"] = "<p class=\"foot\">&nbsp;&nbsp; thougtfully<B> ]</B> <u>sic</u></p>";
+FootNote["fsz0005"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>8</B>r for this addition &lsquo;flames ... tights&rsquo;</p>";
+FootNote["fsz0006"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>8</B>r for this addition &lsquo;&amp; ... only&rsquo;</p>";
+FootNote["fsz0007"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>8</B>r for this addition &lsquo;&amp; ... fortunes&rsquo;</p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

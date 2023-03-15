@@ -1,0 +1,20 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fdz0001"] = "<p class=\"foot\">&nbsp;&nbsp; hon(sup)b(sup)l(sup)e<B> ]</B> <B>0;</B> honourable <B>1</B></p>";
+FootNote["fdz0002"] = "<p class=\"foot\">&nbsp;&nbsp; fossil<B> ]</B> <B>r</B> <B>1;</B> <B>absent</B> <B>1</B></p>";
+FootNote["fdz0003"] = "<p class=\"foot\">&nbsp;&nbsp; bopping<B> ]</B> <B>1;</B> hopping <B>2</B></p>";
+FootNote["fdz0004"] = "<p class=\"foot\">&nbsp;&nbsp; flesh<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fdz0005"] = "<p class=\"foot\">&nbsp;&nbsp; park<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fdz0006"] = "<p class=\"foot\">&nbsp;&nbsp; he<B> ]</B> <B>2;</B> he personally <B>1</B></p>";
+FootNote["fdz0007"] = "<p class=\"foot\">*&nbsp; * chance<B> ]</B> <B>poss</B> <B>3;</B> c<font color=\"red\"><span style=\"font-variant:small-caps\">{sub>unread</sub></span></font>er <B>poss</B> <B>3;</B> opening <B>4</B></p>";
+FootNote["fdz0008"] = "<p class=\"foot\">&nbsp;&nbsp; O&apos;Donnall<B> ]</B> <B>mx</B> <B>3;</B> O&apos;Donnell <B>0,</B> <B>4</B></p>";
+FootNote["fdz0009"] = "<p class=\"foot\">&nbsp;&nbsp; cover<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~! <B>0</B></p>";
+FootNote["fdz0010"] = "<p class=\"foot\">&nbsp;&nbsp; fiction<B> ]</B> <B>2;</B> fictions <B>1</B></p>";
+FootNote["fdz0011"] = "<p class=\"foot\">&nbsp;&nbsp; him<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fdz0012"] = "<p class=\"foot\">&nbsp;&nbsp; editions<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fdz0013"] = "<p class=\"foot\">&nbsp;&nbsp; Wherefore<SUB>&and;</SUB><B> ]</B> <B>2;</B> ~, <B>1</B></p>";
+FootNote["fdz0014"] = "<p class=\"foot\">&nbsp;&nbsp; nonens<SUB>&and;</SUB><B> ]</B> <B>2;</B> nonens, <B>1</B></p>";
+FootNote["fdz0015"] = "<p class=\"foot\">&nbsp;&nbsp; Lucalizod,<B> ]</B> <B>1,</B> <B>poss</B> <B>2;</B> ~<SUB>&and;</SUB> <B>poss</B> <B>2</B></p>";
+FootNote["fdz0016"] = "<p class=\"foot\">&nbsp;&nbsp; out,<B> ]</B> <B>2;</B> ~<SUB>&and;</SUB> <B>mx</B> <B>3</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});
