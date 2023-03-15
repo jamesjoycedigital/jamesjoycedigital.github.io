@@ -40,5 +40,15 @@ images/*.DS_Store
 
 !f
 !f/*
+!f/ff
+!f/ff/js
+!f/ff/js/*
+!f/ff/fpics
+!f/ff/fpics/*.htm
+!f/ff/fpics/*.jpg
+!f/ff/fpics/*.pdf
+!f/ff/fpics/*.png
+!f/ff/fnbs
+!f/ff/fnbs/*.htm
 
 
