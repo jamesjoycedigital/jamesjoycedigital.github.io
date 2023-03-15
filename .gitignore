@@ -50,5 +50,13 @@ images/*.DS_Store
 !f/ff/fpics/*.png
 !f/ff/fnbs
 !f/ff/fnbs/*.htm
+!f/ff/fdra
+!f/ff/fdra/*.htm
+!f/ff/fbiog
+!f/ff/fbiog/*.htm
+!f/ff/css
+!f/ff/css/*
+!f/ff/app
+!f/ff/app/*.htm
 
 
