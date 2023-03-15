@@ -1,0 +1,17 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["ffz0001"] = "<p class=\"foot\">&nbsp;&nbsp; Delfas<B> ]</B> <B>r</B> <B>0;</B> Delfst <B>0+</B> (fol. <B>12</B><B>3</B>v)</p>";
+FootNote["ffz0002"] = "<p class=\"foot\">&nbsp;&nbsp; Dorqhk<B> ]</B> <B>0,</B> <B>0+</B> (fol. <B>12</B><B>3</B>v)</p>";
+FootNote["ffz0003"] = "<p class=\"foot\">&nbsp;&nbsp; Nublid<B> ]</B> <B>0,</B> <B>0+</B> (fol. <B>12</B><B>3</B>v)</p>";
+FootNote["ffz0004"] = "<p class=\"foot\">&nbsp;&nbsp; Dalway<B> ]</B> <B>r</B> <B>0;</B> Dalwa <B>0+</B> (fol. <B>12</B><B>3</B>v)</p>";
+FootNote["ffz0005"] = "<p class=\"foot\">&nbsp;&nbsp; tricklies<B> ]</B> <B>1;</B> trickilies <B>0</B></p>";
+FootNote["ffz0006"] = "<p class=\"foot\">&nbsp;&nbsp; irer&apos;s<B> ]</B> <B>1;</B> irers&apos; <B>0,</B> <B>2</B></p>";
+FootNote["ffz0007"] = "<p class=\"foot\">&nbsp;&nbsp; gratification,<B> ]</B> <B>1;</B> ~; <B>0</B></p>";
+FootNote["ffz0008"] = "<p class=\"foot\">&nbsp;&nbsp; were<SUB>&and;</SUB><B> ]</B> <B>1;</B> were, <B>0</B></p>";
+FootNote["ffz0009"] = "<p class=\"foot\">&nbsp;&nbsp; to<B> ]</B> <B>1;</B> to be <B>0</B></p>";
+FootNote["ffz0010"] = "<p class=\"foot\">&nbsp;&nbsp; and<B> ]</B> <B>1;</B> and in <B>0</B></p>";
+FootNote["ffz0011"] = "<p class=\"foot\">&nbsp;&nbsp; me.<B> ]</B> <B>1;</B> ~! <B>0</B></p>";
+FootNote["ffz0012"] = "<p class=\"foot\">&nbsp;&nbsp; icing<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0</B></p>";
+FootNote["ffz0013"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B> <u>ends</u></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

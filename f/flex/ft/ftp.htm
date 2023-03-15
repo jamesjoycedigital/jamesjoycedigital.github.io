@@ -1,0 +1,11 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["ftz0001"] = "<p class=\"foot\">&nbsp;&nbsp; perrymetered<B> ]</B> <B>poss</B> perimetered</p>";
+FootNote["ftz0002"] = "<p class=\"foot\">&nbsp;&nbsp; isle,<B> ]</B> <B>3;</B> isle, Inis Kevin<SUB>&and;</SUB> <B>2</B></p>";
+FootNote["ftz0003"] = "<p class=\"foot\">&nbsp;&nbsp; that<B> ]</B> <B>3;</B> the lustral domination contained within his most portable <B>2</B></p>";
+FootNote["ftz0004"] = "<p class=\"foot\">&nbsp;&nbsp; strong<B> ]</B> <B>3;</B> strong and <B>2</B></p>";
+FootNote["ftz0005"] = "<p class=\"foot\">&nbsp;&nbsp; roranyellgreeblindigo<B> ]</B> <B>0</B> <B>cap</B> <B>r</B> <B>0</B>&chi;; red orange yellow green blue indigo <B>0</B>&chi;; rorgr <u>del</u> <B>0</B>&chi;</p>";
+FootNote["ftz0006"] = "<p class=\"foot\">&nbsp;&nbsp; coloribus<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0</B></p>";
+FootNote["ftz0007"] = "<p class=\"foot\">&nbsp;&nbsp; spinach,<B> ]</B> <B>0;</B> ~<SUB>&and;</SUB> <B>poss</B> <B>1</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

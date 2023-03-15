@@ -1,0 +1,20 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fpz0001"] = "<p class=\"foot\">&nbsp;&nbsp; pole<B> ]</B> <B>0;</B> poles <B>1</B></p>";
+FootNote["fpz0002"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>A.<B>0</B> <u>ends</u>, <B>1</B>D.<B>0</B> <u>begins</u></p>";
+FootNote["fpz0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>D.<B>0</B> <u>ends</u>, <B>2</B>A.<B>0</B> <u>begins</u></p>";
+FootNote["fpz0004"] = "<p class=\"foot\">&nbsp;&nbsp; what<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0</B></p>";
+FootNote["fpz0005"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>A.<B>1</B> <u>ends</u>, <B>1</B>D.<B>1</B> <u>begins</u></p>";
+FootNote["fpz0006"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>D.<B>1</B> <u>ends</u>, <B>2</B>A.<B>1</B> <u>begins</u></p>";
+FootNote["fpz0007"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>A.<B>2</B> <u>ends</u>, <B>1</B>D.<B>2</B> <u>begins</u></p>";
+FootNote["fpz0008"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>D.<B>2</B> <u>ends</u>, <B>2</B>A.<B>2</B> <u>begins</u></p>";
+FootNote["fpz0009"] = "<p class=\"foot\">&nbsp;&nbsp; somewhere<B> ]</B> <B>3;</B> somewhen <B>2</B></p>";
+FootNote["fpz0010"] = "<p class=\"foot\">&nbsp;&nbsp; then<SUB>&and;</SUB><B> ]</B> <B>3;</B> then, <B>2</B></p>";
+FootNote["fpz0011"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>A.<B>3</B> <u>ends</u>, <B>1</B>D.<B>3</B> <u>begins</u></p>";
+FootNote["fpz0012"] = "<p class=\"foot\">&nbsp;&nbsp; you<SUB>&and;</SUB><B> ]</B> <B>3;</B> ~, <B>2</B></p>";
+FootNote["fpz0013"] = "<p class=\"foot\">&nbsp;&nbsp; earnest<B> ]</B> <B>3;</B> earnest about it <B>2</B></p>";
+FootNote["fpz0014"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>1</B>D.<B>3</B> <u>ends</u>, <B>2</B>A.<B>3</B> <u>begins</u></p>";
+FootNote["fpz0015"] = "<p class=\"foot\">&nbsp;&nbsp; as<B> ]</B> <B>0;</B> was <B>1</B></p>";
+FootNote["fpz0016"] = "<p class=\"foot\">&nbsp;&nbsp; he<B> ]</B> <B>0+;</B> he was <B>0</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

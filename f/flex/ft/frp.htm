@@ -1,0 +1,7 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["frz0001"] = "<p class=\"foot\">&nbsp;&nbsp; held<B> ]</B> <u>not deleted</u></p>";
+FootNote["frz0002"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2+</B> <u>ends</u></p>";
+FootNote["frz0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <B>2+</B> <u>resumes</u></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});

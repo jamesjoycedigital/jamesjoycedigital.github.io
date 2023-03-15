@@ -58,5 +58,6 @@ images/*.DS_Store
 !f/ff/css/*
 !f/ff/app
 !f/ff/app/*.htm
-
+!f/flex/*
+!f/flex/*/*.htm
 

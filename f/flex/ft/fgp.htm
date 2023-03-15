@@ -1,0 +1,15 @@
+$(document).ready(function(){ var FootNote = {};
+FootNote["fgz0001"] = "<p class=\"foot\">&nbsp;&nbsp; to ... drop,<B> ]</B> <B>misloc</B> <B>1</B></p>";
+FootNote["fgz0002"] = "<p class=\"foot\">&nbsp;&nbsp; come ... colours<B> ]</B> <B>misloc</B> <B>1</B></p>";
+FootNote["fgz0003"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 1  (HELL)</p>";
+FootNote["fgz0004"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 2  (PROGENY)</p>";
+FootNote["fgz0005"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 3  (PROPHECY)</p>";
+FootNote["fgz0006"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 4  (SHIRKING)</p>";
+FootNote["fgz0007"] = "<p class=\"foot\">&nbsp;&nbsp; outofwork,<B> ]</B> <B>misloc</B> <B>1</B></p>";
+FootNote["fgz0008"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 5  (SIN)</p>";
+FootNote["fgz0009"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 6  (DOLES)</p>";
+FootNote["fgz0010"] = "<p class=\"foot\">&nbsp;&nbsp; <B>MS</B> <u>margin</u> 7  (MOTHER)</p>";
+FootNote["fgz0011"] = "<p class=\"foot\">&nbsp;&nbsp; lo<SUB>&and;</SUB><B> ]</B> <B>1;</B> ~, <B>0</B></p>";
+$('[target="foot"]').popover({ html: true, content: function () { return FootNote[this.id]; }, trigger: 'hover', placement: 'top', title: "Foot-Note"
+});
+});
