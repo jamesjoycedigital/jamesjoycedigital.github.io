@@ -2,22 +2,51 @@
   console.log("loaded footnotes");
 });
 
+function snippet_href(href,code){  
+folder ='chicken'
+dirs = [
+  "gn1all",
+  "jn0all",
+  "jn1all",
+  "jn2all",
+  "pn1all",
+  "s12all",
+  "s13all",
+  "s14all",
+  "s15all",
+  "s16all",
+  "s17all",
+  "s18all",
+  "s19all",
+  "un1all",
+  "un2all",
+  "un3all",
+  "un4all",
+  "un5all",
+  "un6all",
+  "un7all",
+];
+
+for (dir in dirs){
+  if (href.includes(dir)){
+    folder = dir
+  }
+} 
+
+href = "/u/ff/snippet/"+folder+"/"+code
+console.log(href)
+return href
+}
+
 var nb_history = [];
 current = null;
 
 $(document).on("click", "a", function () {
   if ($(this).attr("name")) {
+    code = $(this).attr("name")
     href = $(this).attr("href");
-    // correct for relative paths
-    if (!href.includes("../../ff/unbs/")) {
-      href = "../../ff/unbs/" + href;
-    }
-    href = href
-      .replace(".htm", "")
-      .replace(".html", "")
-      .replace("#", "/")
-      .replace("/unbs/", "/snippet/");
-    console.log(href);
+    href = snippet_href(href,code)    
+   
     $.ajax({
       url: href,
       type: "GET",
