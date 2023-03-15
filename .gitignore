@@ -37,3 +37,8 @@ images/*.DS_Store
 !u/ulex/*/*.pdf
 !u/uhome.htm
 
+
+!f
+!f/*
+
+
