@@ -60,4 +60,6 @@ images/*.DS_Store
 !f/ff/app/*.htm
 !f/flex/*
 !f/flex/*/*.htm
-
+!f/ff/snippet
+!f/ff/snippet/*
+!f/ff/snippet/*/*
