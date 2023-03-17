@@ -1,6 +1,4 @@
-# James Joyce Digital Archive Published Website
-
-# James Joyce Digital Archive Published Website
+# James Joyce Digital Archive (Public View)
 
 ## Notes for contributors
 #### (In increasing level of technical confidence) 
@@ -24,6 +22,31 @@ https://github.com/jamesjoycedigital/jamesjoycedigital.github.io/blob/developmen
 
 8. At this point you can navigate to files changed to see exactly what has changed. 
 
+
 ### Codespaces 
 
-## TODO
+Slightly more complicated but more development features. 
+
+### TODO
+
+
+## Change Checklist
+
+After the departure from tustep it is now necessary to update multiple files for a single change. 
+
+### Noton update
+
+Noton pages will have to be updated in the snippet folder i.e. f/ff/snippet and u/ff/snippet. You will also need to update the coresponding notebook page (full) e.g. noton n11035b (FW) (f/ff/snippet/n11035b) will also need the page n11all.htm will updating (f/ff/fnbs/n11all.htm)
+
+private view
+
+It will also be necessary to update the private repository https://github.com/jamesjoycedigital/TustepOriginal. 
+
+i.e. https://github.com/jamesjoycedigital/TustepOriginal/blob/main/jjda/Fnbs/n11all.htm 
+
+(no snippets here)
+
+Other updates types to follow (i.e adding new notons and links throughout the site)
+
+
+
