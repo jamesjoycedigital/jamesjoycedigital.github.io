@@ -36,6 +36,7 @@ function snippet_href(href, code) {
   }
 
   href = "/u/ff/snippet/" + folder + "/" + code
+  href = href.toLowerCase()
   console.log(href)
   return href
 }
