@@ -13,7 +13,7 @@ function snippet_href(href, code) {
     'n37all', 'n38all', 'n39all', 'n40all', 'n41all', 'n42all', 'n43all', 'n44all', 'n45all', 'n46all', 'n47all',
     'n48all', 'n49all', 'n50all', 'n51all', 'n52all', 'n53all', 'n54all', 'n55all', 'n56all', 'n57all', 'n58all',
     'n59all', 'n60all', 'n63all', 'sd1all', 'sd2all', 'sh1all', 'sh2all', 'sh3all', 'sh4all', 'sh5all', 'sh6all',
-    'sh7all', 'sh8all', 'ssaall', "unbdetails"
+    'sh7all', 'sh8all', 'ssaall', "fnbdetails"
   ];
 
   for (let i in dirs) {
