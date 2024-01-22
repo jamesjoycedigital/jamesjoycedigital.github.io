@@ -1,52 +1,55 @@
 # James Joyce Digital Archive (Public View)
+### Prerequisites
+Ensure that you have Git installed on your local machine before proceeding with the following steps.
 
-## Notes for contributors
-#### (In increasing level of technical confidence) 
+### Contributing to the Repository
 
-### Github UI
+1. **Clone the Repository:**
+   ```bash
+   cd local/folder
+   git clone git@github.com:jamesjoycedigital/jamesjoycedigital.github.io.git
+   ```
 
-1. Select branch development. There is a drop down labeled main (initally) above the listed folders and files.
+2. **Create a New Branch:**
+   ```bash
+   git checkout -b lowercase_links_chicken_guide
+   ```
 
-2. Navigate to the file you wish to change say /f/ff/snippet/c01all/c01001. If you are having difficulty finding the file copy 
-https://github.com/jamesjoycedigital/jamesjoycedigital.github.io/blob/development/f/ff/snippet/c01all/c01001 into the UI and update the url accordingly (say change the notebook entry code). This technique can be useful as at this point there is more files in some folders than can actually be displayed in the browser UI. 
+3. **Make Changes:**
+   Make the necessary modifications to the files. Afterward, stage your changes for commit:
+   ```bash
+   git add .
+   ```
 
-3. Click the edit button ( a pencil icon top right of the raw content).
+4. **Commit Changes:**
+   Commit your changes with a concise and informative message:
+   ```bash
+   git commit -m "Update broken links to be lowercase"
+   ```
 
-4. Make changes. Then scroll to the bottom and click commit changes. Before this you can optionally add a title and some extra information about what you are up to. 
+5. **Push Changes to Remote Repository:**
+   Push your branch to the remote repository on GitHub:
+   ```bash
+   git push origin lowercase_links_chicken_guide
+   ```
 
-5. Once you have made all the changes you wish to (you can make as many changes and commits as you like) click the pull request button. It is on the middle nav bar between issues and actions.
+6. **Create a Pull Request:**
+   - Visit the GitHub repository in your web browser.
+   - Navigate to the "Pull Requests" tab.
+   - Click on the "New Pull Request" button.
+   - Ensure that the base branch is set to the main branch.
+   - Select your newly created branch as the compare branch.
+   - Provide a clear and concise title and description for your pull request.
+   - Click "Create Pull Request" to submit your changes for review.
 
-6. On the pull request page click the green 'New Pull Request' button.
+These steps will help streamline the process of contributing to the repository. Please ensure that your pull request description explains the purpose of your changes and any relevant context for reviewers.
 
-7. Under Compare Changes select base:main and compare:development, Then create pull request. 
-
-8. At this point you can navigate to files changed to see exactly what has changed. 
-
-
-### Codespaces 
-
-Slightly more complicated but more development features. 
-
-### TODO
-
-
-## Change Checklist
-
-After the departure from tustep it is now necessary to update multiple files for a single change. 
+# Further Guidance
 
 ### Noton update
 
 Noton pages will have to be updated in the snippet folder i.e. f/ff/snippet and u/ff/snippet. You will also need to update the coresponding notebook page (full) e.g. noton n11035b (FW) (f/ff/snippet/n11035b) will also need the page n11all.htm will updating (f/ff/fnbs/n11all.htm)
 
-private view
-
-It will also be necessary to update the private repository https://github.com/jamesjoycedigital/TustepOriginal. 
-
-i.e. https://github.com/jamesjoycedigital/TustepOriginal/blob/main/jjda/Fnbs/n11all.htm 
-
-(no snippets here)
-
-Other updates types to follow (i.e adding new notons and links throughout the site)
 
 
 
