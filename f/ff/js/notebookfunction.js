@@ -18,7 +18,11 @@ function snippet_href(href, code) {
 
   for (let i in dirs) {
     dir = dirs[i]
-    if (href.includes(dir)) {
+    // Assumes any href with just anchors are links to notebook descriptions
+    if (href.startsWith('#')) {
+      folder = "fnbdetails"
+    }
+    else if (href.includes(dir)) {
       folder = dir
     }
   }
