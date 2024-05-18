@@ -30,8 +30,9 @@ function snippet_href(href, code) {
 
   for (let i in dirs) {
     dir = dirs[i]
-    // Assumes any href with just anchors are links to notebook descriptions
+    // Check if href with just anchors are links to notebook descriptions
     if (href.startsWith('#')) {
+    if (href.startsWith('#') && code.match(/^(c|n|us\d{2})|^(gn|jn|pn|sd|sh|un)\d{1}|^sa$|^(fwsheets-|primaryfw-|raphael-)\d{1}|^(early-ulysses|intermediate-ulysses|late-ulysses|paris-pola|ulysses-notesheets)/)) {
       folder = "unbdetails"
     }
     else if (href.includes(dir)) {

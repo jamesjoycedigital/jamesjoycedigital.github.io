@@ -13,13 +13,15 @@ function snippet_href(href, code) {
     'n37all', 'n38all', 'n39all', 'n40all', 'n41all', 'n42all', 'n43all', 'n44all', 'n45all', 'n46all', 'n47all',
     'n48all', 'n49all', 'n50all', 'n51all', 'n52all', 'n53all', 'n54all', 'n55all', 'n56all', 'n57all', 'n58all',
     'n59all', 'n60all', 'n63all', 'sd1all', 'sd2all', 'sh1all', 'sh2all', 'sh3all', 'sh4all', 'sh5all', 'sh6all',
-    'sh7all', 'sh8all', 'ssaall', "fnbdetails"
+    'sh7all', 'sh8all', "fnbdetails"
   ];
+  // ssaall is does not exist - files in chicken
 
   for (let i in dirs) {
     dir = dirs[i]
     // Assumes any href with just anchors are links to notebook descriptions
-    if (href.startsWith('#')) {
+    // Check if href with just anchors are links to notebook descriptions
+    if (href.startsWith('#') && code.match(/^(c|n|us\d{2})|^(gn|jn|pn|sd|sh|un)\d{1}|^sa$|^(fwsheets-|primaryfw-|raphael-)\d{1}|^(early-ulysses|intermediate-ulysses|late-ulysses|paris-pola|ulysses-notesheets)/)) {
       folder = "fnbdetails"
     }
     else if (href.includes(dir)) {
